@@ -1,0 +1,328 @@
+body{
+    background-color: #32a0b971;
+    overflow-x: hidden;
+    font-family: 'Century Gothic', Calibri, serif;
+}
+.barre1_1{
+    width: 3.3em;
+    position: absolute; right: .3em; top: 5em;
+    color: black;
+    transition: .5s;
+}
+.barre2_1{
+    width: 3.3em;
+    position: absolute; right: .3em; bottom: 11em;
+    color: black;
+    transition: .5s;
+}
+.barre1_2{
+    width: 16em;
+    position: absolute; right: .3em; top: 5em;
+    color: black;
+    transition: .5s;
+}
+.barre2_2{
+    width: 16em;
+    position: absolute; right: .3em; bottom: 11em;
+    color: black;
+    transition: .5s;
+}
+
+
+.lumière{
+    background-image: url("../images/test3.png");
+    /*
+    background-color: rgb(211, 240, 248);
+    */
+    opacity: .5;
+    position: fixed;
+    background-repeat: no-repeat;
+    width: 7em;
+    height: 45em;
+}
+
+.posàg{
+    left: -7em;
+}
+.posàd{
+    left: 80em;
+    transition: 2s cubic-bezier(.71,0,.65,1.03);
+}
+.fond{
+    background-image: url("../images/DA\ bis.svg");
+    height: 100%;
+    width: 80em;
+    position: fixed;
+    top: 0em;
+    left: 0em;
+}
+
+
+.corps{
+    margin-left: 5em;
+    position: absolute;
+}
+.menu{
+    position: fixed;
+    top: 1.2em;
+    left: .3em;
+    transform: translateY(-.9em);
+    height: 34.9em;
+    background-color: white;
+    border: .05em solid black;
+    border-radius: .5em;
+    overflow: hidden;
+    text-decoration: none;
+    opacity: .9;
+}
+.largeur1{
+    width: 4em;
+    transition: .5s;
+}
+.largeur2{
+    width: 16.761em;
+    transition: .5s;
+}
+.contact{
+    position: fixed;
+    bottom: 0em;
+    right: 0em;
+    font-size: 1em;
+}
+.information{
+    position: fixed;
+    top: 4.2em;
+    right: 0em;
+    font-size: 1.5em;
+}
+.logo{
+    position: fixed;
+    top: .5em;
+    right: 0em;
+    font-size: 1.5em;
+}
+.onglet_log{
+    position: relative;
+    right: .2em;
+    height: 2.5em;
+    width: 10.75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5em;
+    cursor: default;
+}
+.onglet{
+    position: relative;
+    right: .2em;
+    height: 2.5em;
+    width: 10.75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5em;
+    cursor: pointer;
+    border-radius: .3em;
+}
+.onglet_contact{
+    position: relative;
+    right: 0.25em;
+    height: 3.1em;
+    width: 16.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5em;
+    cursor: pointer;
+}
+.couleur1{
+    color: black;
+}
+.texte{
+    height: 1.5em;
+    width: 1.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.texte_cont{
+    height: 1.5em;
+    width: 1.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.le_logo{
+    background-color: #ADCAE3;
+    position: absolute;
+    right: .4em;
+    height: 1.5em;
+    width: 1.5em;
+    display: flex;
+    border-radius: .3em;
+}
+.texte1{
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    left: .5em;
+    text-decoration: none;
+    
+    
+}
+.fond_ongl{
+    display: flex;
+    align-items: center;
+    
+}
+.fond_inf{
+    height: 2em;
+    left: .5em;
+    width: 9.2em;
+    border-radius: .3em 0em 0em .3em;
+}
+.fond_cont{
+    left: -12.92em;
+    width: 13.4em;
+    height: 3.1em;
+    border-radius: .3em 0em 0em .3em;
+}
+.fond1{
+    top: 0em;
+}
+.fond2{
+    top: 0em;
+}
+
+.fcont1{
+    top: 0em;
+}
+.fcont2{
+    top: 0em;
+}
+
+.aqua{
+    background-color: #83cbe1;
+    transition: .1s;
+    border-radius: .5em;
+    color: white
+}
+.blue{
+    background-color: transparent;
+    transition: .1s;
+    color: black;
+}
+.blue2{
+    position: relative;
+    right: .2em;
+    height: 2.5em;
+    width: 10.75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5em;
+    cursor: default;
+    border-radius: .3em;
+    color: white;
+}
+.blue2_bis{
+    position: absolute;
+    right: 0em;
+    height: 2.5em;
+    width: 2.3em;
+    text-decoration: none;
+    border-radius: .3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bleu2{
+    background-color: #4B82B2;
+}
+.transp{
+    background-color: transparent;
+    transition-delay: .45s;
+}
+
+.blue2_cont{
+    position: relative;
+    right: 0.25em;
+    height: 3.1em;
+    width: 16.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5em;
+    cursor: default;
+    border-radius: .45em;
+    color: white;
+}
+.blue2_cont_bis{
+    position: absolute;
+    right: 0em;
+    height: 3.1em;
+    width: 3.45em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .45em;
+}
+
+
+
+.logo_acc1{
+    background-image: url("../images/logo/logo\ accueil\ blanc.svg");
+    transition: .1s;
+}
+.logo_acc2{
+    background-image: url("../images/logo/logo\ accueil\ bleu.svg");
+    transition: .1s;
+}
+
+
+.logo_proj1{
+    background-image: url("../images/logo/logo\ projet\ blanc.png");
+    transition: .1s;
+}
+.logo_proj2{
+    background-image: url("../images/logo/logo\ projet\ bleu.png");
+    transition: .1s;
+}
+
+
+.logo_comp1{
+    background-image: url("../images/logo/logo\ compét\ blanc.png");
+    transition: .1s;
+}
+.logo_comp2{
+    background-image: url("../images/logo/logo\ compét\ bleu.png");
+    transition: .1s;
+}
+
+
+.logo_GH1{
+    background-image: url("../images/logo/logo\ github\ blanc.png");
+    transition: .1s;
+}
+.logo_GH2{
+    background-image: url("../images/logo/logo\ github\ bleu.png");
+    transition: .1s;
+}
+
+
+.logo_mail1{
+    background-image: url("../images/logo/logo\ email\ blanc.png");
+    transition: .1s;
+}
+.logo_mail2{
+    background-image: url("../images/logo/logo\ email\ bleu.png");
+    transition: .1s;
+}
+
+
+.logo_apr1{
+    background-image: url("../images/logo/logo\ aprop\ blanc.png");
+    transition: .1s;
+}
+.logo_apr2{
+    background-image: url("../images/logo/logo\ aprop\ bleu.png");
+    transition: .1s;
+}
